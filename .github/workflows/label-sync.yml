@@ -1,7 +1,8 @@
 name: Sync labels
 on:
   push:
-    paths: './labels.*'
+    paths: 
+    - './labels.*'
   workflow_dispatch:
    
 jobs:
