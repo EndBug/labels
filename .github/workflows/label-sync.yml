@@ -12,7 +12,7 @@ jobs:
     steps:
     
     - uses: actions/checkout@v2
-    - uses: EndBug/label-sync@main
+    - uses: EndBug/label-sync@v1
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         config-file: ./labels.yaml
