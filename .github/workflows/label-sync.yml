@@ -14,6 +14,6 @@ jobs:
     - uses: EndBug/label-sync@main
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        config-file: ./labels.yml
+        config-file: ./labels.yaml
         
         dry-run: true
