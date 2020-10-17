@@ -15,5 +15,3 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         config-file: ./labels.yaml
-        
-        dry-run: true
